@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'GolosUI';
+	src:
+	url('assets/fonts/Golos-UI/golos-ui_regular.woff2') format('woff2'),
+	url('assets/fonts/Golos-UI/golos-ui_regular.woff') format('woff');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+.mainContainer {
+	display: flex;
+}
+
+.signInText {
+	font-family: GolosUI;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 140px;
+	line-height: 180px;
+	letter-spacing: -1.5px;
+
+	position: absolute;
+	margin-top: 182.37px;
+	margin-left: 179px;
+	width: 385px;
+	height: 180px;
+	color: #222222;
+}
+
+.mainImage {
+	margin-left: 269px;
+	margin-top: 289px;
+	height: 501px;
+	width: 462px;
+}
+
+.containerSignIn {
+	width: 343px;
+	height: 251px;
+	margin-top: 415px;
+	margin-left: 107px;
+}
+
+.emailInput {
+	background: rgba(242, 243, 245, 1);
+	border-color: transparent;
+	width: 343px;
+	height: 44px;
+	justify-content: space-between;
+	opacity: 1;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.emailText {
+	color: #222222;
+	font-family: GolosUI;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.15px;
+
+	width: 343px;
+	height: 18px;
+}
+
+.formatForEmailText {
+	font-family: GolosUI;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: -0.08px;
+	color: #808080;
+	margin: 0;
+	width: 343px;
+	height: 16px;
+	margin-top: 5px;
+}
+
+.passwordInput {
+	background: rgba(242, 243, 245, 1);
+	border-color: transparent;
+	width: 343px;
+	height: 44px;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+.passwordInputContainer {
+	display: flex;
+	background: rgba(242, 243, 245, 1);
+	border-color: transparent;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.eyeImage {
+	width: 24px;
+	height: 24px;
+	padding: 13px;
+}
+
+.passwordText {
+	color: #222222;
+	font-family: GolosUI;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.15px;
+	margin-top: 16px;
+
+	width: 343px;
+	height: 18px;
+}
+
+.continueButton {
+	width: 343px;
+	height: 48px;
+	border-radius: 10px;
+
+	background: rgba(34, 34, 34, 1);
+	color: #ffffff;
+	font-family: GolosUI;
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+
+	margin-top: 32px;
+}
