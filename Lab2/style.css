@@ -8,12 +8,12 @@
 	font-style: normal;
 }
 
-.mainContainer {
+.main-сontainer {
 	display: flex;
+	font-family: GolosUI;
 }
 
-.signInText {
-	font-family: GolosUI;
+.sign-in-text {
 	font-weight: 700;
 	font-style: Bold;
 	font-size: 140px;
@@ -28,21 +28,21 @@
 	color: #222222;
 }
 
-.mainImage {
+.main-image {
 	margin-left: 269px;
 	margin-top: 289px;
 	height: 501px;
 	width: 462px;
 }
 
-.containerSignIn {
+.sign-in-container {
 	width: 343px;
 	height: 251px;
 	margin-top: 415px;
 	margin-left: 107px;
 }
 
-.emailInput {
+.email-input {
 	background: rgba(242, 243, 245, 1);
 	border-color: transparent;
 	width: 343px;
@@ -53,9 +53,8 @@
 	margin-top: 5px;
 }
 
-.emailText {
+.email-text {
 	color: #222222;
-	font-family: GolosUI;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 18px;
@@ -65,8 +64,7 @@
 	height: 18px;
 }
 
-.formatForEmailText {
-	font-family: GolosUI;
+.format-for-email-text {
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 16px;
@@ -78,7 +76,7 @@
 	margin-top: 5px;
 }
 
-.passwordInput {
+.password-input {
 	background: rgba(242, 243, 245, 1);
 	border-color: transparent;
 	width: 343px;
@@ -87,7 +85,7 @@
 	border-radius: 10px;
 }
 
-.passwordInputContainer {
+.password-input-container {
 	display: flex;
 	background: rgba(242, 243, 245, 1);
 	border-color: transparent;
@@ -95,15 +93,14 @@
 	margin-top: 5px;
 }
 
-.eyeImage {
+.eye-image {
 	width: 24px;
 	height: 24px;
 	padding: 13px;
 }
 
-.passwordText {
+.password-text {
 	color: #222222;
-	font-family: GolosUI;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 18px;
@@ -114,14 +111,13 @@
 	height: 18px;
 }
 
-.continueButton {
+.continue-button {
 	width: 343px;
 	height: 48px;
 	border-radius: 10px;
 
 	background: rgba(34, 34, 34, 1);
 	color: #ffffff;
-	font-family: GolosUI;
 	font-weight: 500;
 	font-style: Medium;
 	font-size: 16px;
